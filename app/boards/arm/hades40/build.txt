@@ -1,0 +1,2 @@
+cd zmk/app
+West build -p -b hades40
