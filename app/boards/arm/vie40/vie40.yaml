@@ -1,0 +1,17 @@
+identifier: vie40
+name: Vie40
+type: keyboard
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+exposes:
+  - i2c_oled
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
